@@ -1,0 +1,241 @@
+body {
+    background-color: rgb(55 54 66);
+}
+
+.logo img {
+    display: flex;
+    width: 300px;
+    height: 75%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.navbar-wrapper {
+    background-color: black;
+    margin: -8px;
+    padding: 20px 0px 20px 20px;
+    display: flex;
+    height: 76.35px;
+}
+
+.links-wrapper {
+    width:500px;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 0px 0px 80px;
+    height: 60px;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.links-wrapper {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: 0px;
+    align-items: center;
+}
+
+.links-wrapper > .real-link{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin-top: 0px;
+}
+.explore {
+    height: 20px;
+    font-weight: 100;
+    margin-top: 10px;
+    font-size: 23px;
+    color: #ffe084;
+}
+.spark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkgrey;
+    font-size: 25px;
+    margin: 35px -50px 0px 60px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.spark > .down-chevron span{
+    font-size: 40px;
+    margin: 6px 0px 0px 5px;
+}
+.right {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 260px;
+    width: 650px;
+}
+.create {
+    background-color: rgb(55 54 66);
+    width:180px;
+    height:70px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    color: white;
+    font-weight: 700;
+}
+
+.create > .down-chevron span{
+    color: rgb(62, 197, 102);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon span {
+    color:gray;
+    font-size: 60px;
+    margin: 7px 10px 0px 10px;
+}
+.log-in {
+    background-color: rgb(55 54 66);
+    width:130px;
+    height:70px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+.sign-up{
+    background-color: rgb(55 54 66);
+    width:150px;
+    height:70px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    margin-left: -20px;
+}
+
+.main > .speech {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    padding: 15px;
+    margin: 42px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    line-height: 60px;
+}
+.speech2 {
+    color: darkgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 33px;
+    font-weight: 400;
+    padding: 15px;
+    margin: 42px;
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: left;
+    line-height: 60px;
+    margin-left: -15px;
+}
+
+.bottom-buttons > .sign-up-for-free {
+    background-color: rgb(62, 197, 102);
+    color: black; 
+    width: 320px;
+    margin-left: 55px;
+    height: 80px;
+    border-radius: 5px;
+    font-size: 35px;
+    font-weight: 600;
+    outline: none;
+    border: 0px;
+}
+.bottom-buttons > .learn-more {
+    background-color: black;
+    color: white ;
+    margin-left:10px;
+    border-radius: 5px;
+    height: 76px;
+    width: 250px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.bottom-buttons{
+    margin-top: -260px;
+}
+
+.code-example img{
+    width: 750px;
+    height: 100%;
+}
+.main { 
+    display: grid;
+    justify-content: space-between;
+}
+.column-wrapper {
+    width: 1855px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column > .picture p{
+    margin-bottom:  0px ;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.column-wrapper :nth-child(1){
+    margin-bottom: 0px;
+    width: 800px;
+}
+
+.bottom {
+display: flex;
+width: 101%;
+margin-left: -9px;
+margin-bottom: 0px;
+margin-top: -125px;
+text-align: center;
+height: 80px;
+}
+.bottom > .box {
+    border: 1px solid darkgray;
+    background-color: rgb(62, 61, 66);
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    height: 80px;
+    margin: 30px 0px 0px 0px;
+    padding: 0px;
+    outline: none;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bold-bottom {
+    font-size: 50px; 
+}
+.spacer {
+    height: 67px;
+    width: 100%;
+}
+.spacer100 {
+    height: 20px;
+    width: 100%;
+}
+
+
